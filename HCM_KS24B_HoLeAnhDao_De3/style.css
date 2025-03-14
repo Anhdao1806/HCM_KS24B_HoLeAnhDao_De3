@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+header {
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.hero {
+    padding: 80px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+}
+
+.title {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.introduce {
+    font-size: 18px;
+}
+.image {
+    flex: 1;
+    position: relative;
+    width: 495;
+    height: 424px;
+}
+
+.Skillsection {
+    padding: 80px 0;
+    margin-top: 280px;
+}
+
+.Skillsection-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.Skillsection-card {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.Skillsection-image {
+    margin-bottom: 20px;
+}
+
+.Skillsection-image img {
+    width: 100px;
+    height: 100px;
+}
+.Skillsection-card h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.Skillsection-card p {
+    color: #666;
+}
+
+.work {
+    padding: 80px 0;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.work-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+
+.work-item {
+    margin-bottom: 100px;
+}
+
+.work-image {
+    height: 200px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.work-image img {
+    width: 315px;
+    height: 315px;
+}
+.work-item p {
+    color: #666;
+    font-size: 14px;
+}
+.contact {
+    padding: 80px 0;
+    border-top: 1px solid #eee;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.contact-text {
+    flex: 1;
+    width: 360px;
+    height: 313px;
+}
+
+.contact-text h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contact-text p {
+    margin-bottom: 30px;
+    line-height: 3px;
+}
+
+.contact-applications {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 280px;
+}
+
+
+.contact-form {
+    flex: 1;
+    width: 530px;
+    height: 529px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form input,.form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form textarea {
+    height: 231px;
+    width: 530px;
+}
+.submit {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.submit:hover {
+    background-color: #555;
+}
